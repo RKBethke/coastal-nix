@@ -2,7 +2,7 @@
   description = "Tidal Cycles playground. Powered by Nix.";
   # Tidal Cycles Playground
   # Usage:
-  #   `superdirt-start`
+  #   `superdirt-start [superdirt-with-samples.sc]`
   #   `tidal-vim <file_name>.tidal`
   #   <C-e> to begin plugin and evaluate line
 

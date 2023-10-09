@@ -46,18 +46,17 @@
               tidal.packages.x86_64-linux.vim-tidal
             ];
             vimrcConfig.customRC = ''
+              let maplocalleader=" "
+
               set nocompatible
               set backspace=indent,eol,start
+              set foldmethod=marker
+              set number relativenumber
+              set nu rnu
+
               syntax on
-
-              :set number relativenumber
-              :set nu rnu
-
-              syntax enable
               set background=dark
               colorscheme sonokai
-
-              let maplocalleader=" "
             '';
           })
         ];
